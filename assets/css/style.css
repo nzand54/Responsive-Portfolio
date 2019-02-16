@@ -1,0 +1,326 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid lightgray;
+    height: 100px;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    align-items: center;
+}
+
+.header_name {
+    background-color: #4aaaa5 ;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.header_nav {
+    display: flex;
+    width: 213px;
+    justify-content: space-between;
+}
+
+.header_nav-item {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: lightgray;
+}
+
+.body_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url("../images/dust_scratches.png");
+}
+
+.middle_container {
+    width: 960px;
+    height: 500px;
+    display: flex;
+    border: 1px solid lightgray;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.aboutme_container {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutme {
+    width: 900px;
+    display: flex;
+    font-size: 25px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+    height: 100px;
+    border-bottom: 3px solid lightgray;
+    align-items: center;
+}
+
+.paragraph_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.picture {
+    height: 146px;
+    float: left;
+    margin-right: 20px;
+}
+
+.paragraph {
+    line-height: 30px;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    background: dimgray;
+    border-block-start: 8px solid #4aaaa5;
+    color: lightgray;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 65px;
+    font-size: 13px;
+}
+
+.name_container {
+    display: flex;
+    height: 25px;
+    padding-top: 20px;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.name {
+    font-size: 17px;
+    color: #777777;
+
+}
+
+.box1 { 
+    border: 1px solid lightgray;
+    height: 22px;
+    font-size: 13px;
+    color: lightgray;
+    padding-left: 5px; 
+
+}
+
+.email {
+    padding-top: 15px;
+    padding-bottom: 3px;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+.message {
+    padding-top: 15px;
+    padding-bottom: 3px;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+.contact_container {
+    height: 400px;
+    width: 900px;
+}
+
+.box_container1 {
+    padding-left: 10px;
+    border: 1px solid lightgray;
+    width: 890px;
+    color: #777777;
+    height: 25px;
+    font-size: 12px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.box_container2 {
+    padding-left: 10px;
+    border: 1px solid lightgray;
+    width: 890px;
+    color: #777777;
+    height: 25px;
+    font-size: 12px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.box_container3 {
+    padding-left: 10px;
+    border: 1px solid lightgray;
+    width: 890px;
+    color: #777777;
+    height: 150px;
+    font-size: 12px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.submit {
+    height: 36px;
+    width: 92px;
+    margin-top: 12px;
+    border: 1px solid white;
+    text-align: center;
+    padding-top: 3px;
+    color: white;
+    background: #4aaaa5;
+    font-size: 15px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.portfolio_container {
+    width: 960px;
+    height: 600px;
+    display: flex;
+    border: 1px solid lightgray;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.paragraph_portfolio_container {
+    margin-top: 30px;
+    height: 540px;
+    width: 600px;
+    align-self: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hangman_container {
+    height: 150px;
+    width:  200px
+}
+
+.hangman_pic {
+    height: 150px;
+    width:  200px
+}
+
+.hangman {
+    flex: display;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_text {
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #4aaaa5;
+    color: white;
+    padding: 10px 0px;
+    text-align: center;
+    width: 100%
+}
+
+.img_container {
+    position: relative;
+    height: 154px;
+    flex: 0 50%;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.img_container2 {
+    position: relative;
+    width: 200px;
+}
+
+@media (max-width: 980px) {
+    .middle_container {
+        width: 600px;
+        height: auto;
+        padding: 25px;
+    }
+    .body_container {
+        padding-top: 50px;
+        padding-left: 50px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .aboutme_container {
+        width: inherit;
+    }
+    .aboutme {
+        width: inherit;
+        height: unset;
+        padding-bottom: 20px;
+    }
+    .header_container {
+        padding-left: 50px;
+        padding-right: 50px;
+         width: 100%;
+    }
+        
+}
+
+@media (max-width: 768px) {
+
+    .body_container {
+        justify-content: center;
+        padding-left: 0px;
+    }
+    .middle_container {
+        width: 88%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .aboutme {
+        width: 100%;
+    }
+    .aboutme_container {
+        width: 100%;
+    }
+    .header_container {
+        padding-right: 0px;
+        padding-left: 0;
+        width: 93%;
+    }
+}
+
+@media (max-width: 640px) {
+    
+    
+}
